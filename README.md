@@ -18,7 +18,7 @@ Możliwe jest podanie tylko jednego z argumentów - s lub w. Jeśli podano s, pr
 Program przyjmuje również dwa argumenty opcjonalne - min i max - które określają dolną i górną granicę przedziału, na którym wykres będzie generowany.
 Na końcu program wyświetla wykres funkcji gęstości prawdopodobieństwa rozkładu normalnego z zaznaczonymi osiami x i y, tytułem "Rozkład normalny".
 
-## Technologie 
+## Technologie
 W programie wykorzystane zostały dwie biblioteki: NumPy, Matplotlib.
 NumPy jest biblioteką do obliczeń numerycznych w języku Python, która umożliwia operacje na dużych tablicach i macierzach danych, w tym także na danych wielowymiarowych. 
 
