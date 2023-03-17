@@ -1,11 +1,11 @@
 # Funkcja rozkładu normalnego (Rozkład Gaussa).
 Spis treści: 
-* [Opis programu](#opis programu)
+* [Opis programu](#opis-programu)
 * [Technologie] (#technoligie)
-* [Kod programu] (#kod programu)
+* [Kod programu] (#kod-programu)
 * [Wynik] (#wynik)
 
-# Opis programu
+## Opis programu
 Program generuje wykres funkcji gęstości prawdopodobieństwa rozkładu normalnego na podstawie podanych argumentów z linii poleceń.
 
 Program przyjmuje trzy argumenty wymagane:
@@ -18,7 +18,7 @@ Możliwe jest podanie tylko jednego z argumentów - s lub w. Jeśli podano s, pr
 Program przyjmuje również dwa argumenty opcjonalne - min i max - które określają dolną i górną granicę przedziału, na którym wykres będzie generowany.
 Na końcu program wyświetla wykres funkcji gęstości prawdopodobieństwa rozkładu normalnego z zaznaczonymi osiami x i y, tytułem "Rozkład normalny".
 
-#Technologie 
+## Technologie 
 W programie wykorzystane zostały dwie biblioteki: NumPy, Matplotlib.
 NumPy jest biblioteką do obliczeń numerycznych w języku Python, która umożliwia operacje na dużych tablicach i macierzach danych, w tym także na danych wielowymiarowych. 
 
@@ -26,7 +26,7 @@ Matplotlib natomiast służy do tworzenia wykresów i wizualizacji danych w Pyth
 
 Program wykorzystuje te biblioteki do generowania wykresu rozkładu normalnego na podstawie podanych parametrów średniej, odchylenia standardowego lub wariacji oraz przedziału wartości x. Dodatkowo, program przyjmuje argumenty z linii poleceń za pomocą modułu argparse, co umożliwia użytkownikowi podawanie wartości parametrów bezpośrednio przy uruchamianiu programu.
 
-# Kod programu
+## Kod programu
 ```
 from numpy import linspace, exp, pi, sqrt
 from matplotlib.pyplot import ylabel, plot, grid, show, xlabel, title
@@ -70,7 +70,7 @@ class RozkladNormalny:
         show()
         
 ```
-# Wynik
+## Wynik
 Uzyskany wynik po wywołaniu programu komendą w konsoli "python  main.py -u 0 -s 1 --min -4 --max 4"
 
 ![image](https://user-images.githubusercontent.com/76017554/225802366-e387c6f2-d5f5-443d-9169-5cae3e8e03ab.png)
