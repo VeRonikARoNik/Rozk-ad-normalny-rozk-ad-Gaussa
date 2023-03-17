@@ -1,9 +1,9 @@
 # Funkcja rozkładu normalnego (Rozkład Gaussa).
 Spis treści: 
 * [Opis programu](#opis-programu)
-* [Technologie] (#technoligie)
-* [Kod programu] (#kod-programu)
-* [Wynik] (#wynik)
+* [Technologie](#technoligie)
+* [Kod programu](#kod-programu)
+* [Wynik](#wynik)
 
 ## Opis programu
 Program generuje wykres funkcji gęstości prawdopodobieństwa rozkładu normalnego na podstawie podanych argumentów z linii poleceń.
