@@ -1,6 +1,31 @@
-# Rozkład-normalny-(Rozkład-Gaussa)
-Funkcja rozkładu normalnego (rozkład Gaussa) 
-#KOD PROGRAMU
+#Funkcja rozkładu normalnego (Rozkład Gaussa).
+Spis treści: 
+[Opis programu] #(opis programu)
+[Technologie] #(technoligie)
+[Kod programu] #(kod programu)
+
+#Opis programu
+Program generuje wykres funkcji gęstości prawdopodobieństwa rozkładu normalnego na podstawie podanych argumentów z linii poleceń.
+
+Program przyjmuje trzy argumenty wymagane:
+*u - wartość oczekiwana (średnia) rozkładu normalnego,
+*s - odchylenie standardowe rozkładu normalnego,
+*w - wariację rozkładu normalnego.
+
+Możliwe jest podanie tylko jednego z argumentów - s lub w. Jeśli podano s, program oblicza wartość wariacji i wykorzystuje ją do obliczenia funkcji gęstości prawdopodobieństwa. Jeśli podano w, program oblicza odchylenie standardowe i na jego podstawie oblicza funkcję gęstości prawdopodobieństwa.
+
+Program przyjmuje również dwa argumenty opcjonalne - min i max - które określają dolną i górną granicę przedziału, na którym wykres będzie generowany.
+Na końcu program wyświetla wykres funkcji gęstości prawdopodobieństwa rozkładu normalnego z zaznaczonymi osiami x i y, tytułem "Rozkład normalny".
+
+#Technologie 
+W programie wykorzystane zostały dwie biblioteki: NumPy, Matplotlib.
+NumPy jest biblioteką do obliczeń numerycznych w języku Python, która umożliwia operacje na dużych tablicach i macierzach danych, w tym także na danych wielowymiarowych. 
+
+Matplotlib natomiast służy do tworzenia wykresów i wizualizacji danych w Pythonie, umożliwiając m.in. rysowanie wykresów liniowych, słupkowych, punktowych czy histogramów. 
+
+Program wykorzystuje te biblioteki do generowania wykresu rozkładu normalnego na podstawie podanych parametrów średniej, odchylenia standardowego lub wariacji oraz przedziału wartości x. Dodatkowo, program przyjmuje argumenty z linii poleceń za pomocą modułu argparse, co umożliwia użytkownikowi podawanie wartości parametrów bezpośrednio przy uruchamianiu programu.
+
+#Kod programu
 ```
 from numpy import linspace, exp, pi, sqrt
 from matplotlib.pyplot import ylabel, plot, grid, show, xlabel, title
@@ -46,4 +71,5 @@ class RozkladNormalny:
 \\wywołanie klasy 
 rozklad = RozkladNormalny(s=2, u=0, w=None)
 rozklad.plot()
+
 ```
