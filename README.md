@@ -1,7 +1,7 @@
 # Funkcja rozkładu normalnego (Rozkład Gaussa).
 Spis treści: 
 * [Opis programu](#opis-programu)
-* [Technologie](#technoligie)
+* [Technologie](#technologie)
 * [Kod programu](#kod-programu)
 * [Wynik](#wynik)
 
@@ -20,9 +20,7 @@ Na końcu program wyświetla wykres funkcji gęstości prawdopodobieństwa rozk�
 
 ## Technologie
 W programie wykorzystane zostały dwie biblioteki: NumPy, Matplotlib.
-NumPy jest biblioteką do obliczeń numerycznych w języku Python, która umożliwia operacje na dużych tablicach i macierzach danych, w tym także na danych wielowymiarowych. 
-
-Matplotlib natomiast służy do tworzenia wykresów i wizualizacji danych w Pythonie, umożliwiając m.in. rysowanie wykresów liniowych, słupkowych, punktowych czy histogramów. 
+NumPy jest biblioteką do obliczeń numerycznych w języku Python, która umożliwia operacje na dużych tablicach i macierzach danych, w tym także na danych wielowymiarowych. Matplotlib natomiast służy do tworzenia wykresów i wizualizacji danych w Pythonie, umożliwiając m.in. rysowanie wykresów liniowych, słupkowych, punktowych czy histogramów. 
 
 Program wykorzystuje te biblioteki do generowania wykresu rozkładu normalnego na podstawie podanych parametrów średniej, odchylenia standardowego lub wariacji oraz przedziału wartości x. Dodatkowo, program przyjmuje argumenty z linii poleceń za pomocą modułu argparse, co umożliwia użytkownikowi podawanie wartości parametrów bezpośrednio przy uruchamianiu programu.
 
