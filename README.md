@@ -1,9 +1,9 @@
 # Funkcja rozkładu normalnego (Rozkład Gaussa).
 Spis treści: 
-* [Opis programu] #(opis programu)
-* [Technologie] #(technoligie)
-* [Kod programu] #(kod programu)
-* [Wynik] #(wynik)
+* [Opis programu](#opis programu)
+* [Technologie] (#technoligie)
+* [Kod programu] (#kod programu)
+* [Wynik] (#wynik)
 
 # Opis programu
 Program generuje wykres funkcji gęstości prawdopodobieństwa rozkładu normalnego na podstawie podanych argumentów z linii poleceń.
@@ -71,7 +71,7 @@ class RozkladNormalny:
         
 ```
 # Wynik
-Uzyskany wynik po wywołaniu programu komendą w konsoli python  main.py -u 0 -s 1 --min -4 --max 4
+Uzyskany wynik po wywołaniu programu komendą w konsoli "python  main.py -u 0 -s 1 --min -4 --max 4"
 
 ![image](https://user-images.githubusercontent.com/76017554/225802366-e387c6f2-d5f5-443d-9169-5cae3e8e03ab.png)
 
